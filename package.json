@@ -1,0 +1,33 @@
+{
+  "name": "retab",
+  "version": "0.0.0",
+  "description": "Change four space tabs in a file to the specified size.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": "bin/retab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiveisprime/retab.git"
+  },
+  "keywords": [
+    "tab"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveisprime/retab/issues"
+  },
+  "homepage": "https://github.com/fiveisprime/retab",
+  "devDependencies": {
+    "istanbul": "0.3.2",
+    "jshint": "2.5.6",
+    "mocha": "2.0.0",
+    "should": "4.1.0"
+  },
+  "dependencies": {
+    "split": "0.3.0",
+    "through": "2.3.6"
+  }
+}
